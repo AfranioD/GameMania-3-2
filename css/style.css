@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header {
+    height: 130px;
+    overflow: hidden;
+    background-color: #b0d3e7;   
+    
+}
+
+header img
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.menu {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a.active {
+    background-color: white;
+    color: black;
+    padding: 14px;
+    font-weight: bold;
+  }
+
+.menu a.active1 {
+    background-color: black;
+    color: white;
+    font-size: 26;
+    text-decoration: none; 
+    padding: 14px;  
+    font-weight: bold;    
+}
+
+.banners-container{
+    width:  400px;
+
+}
+ */
+
+
+header{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgb(152, 161, 161);
+    height:110px;
+}
+
+.container-grid{
+    width:1200px ;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.menu a {
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu{
+    width:660px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.carousel-item active img{
+    
+    width: 450px;
+}
+
+.consoles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.consoles img {
+    width: 140px;
+}
+
+.consoles a {
+        
+    justify-content: center;
+    font-size: 22px;
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.secao-games{
+    height: 350px;
+}
+
+
+ .games-container {
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px;
+}
+
+
+  .background-image  {
+    background-repeat: no-repeat;
+    display: flex;
+    background-attachment: fixed;
+    
+  
+}
+  
+  .games-container a  {
+   text-decoration: none;
+   justify-content: space-between;
+   font-weight: bold;
+   color: antiquewhite;
+   text-align: center;
+   font-size:16px;
+   font-weight: bold;
+}
+
+.games-container img {
+    width: 160px;
+    align-content: middle;
+}
+
+.rodape-container{
+    height: 80px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.redes-sociais a{
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.rodape-container a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.rodape2-container{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+
+.text-center a{
+    color: black;
+    text-decoration: none;
+}
+    
+.barras {
+    width: 30px;
+    display: none;
+}
+
+.posicionamento-header{
+    position: relative;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .menu-container {
+        width: 90%;
+        
+    }
+}
+    .menu {
+        font-size: 16px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        color: blue;
+    }
+}
+
+.menu a{
+    font-size: 18px;
+}
+
+.barras {
+    display: inline-block;
+}
+
+.meu{
+    display: none;
+    flex-direction: column;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
+.menu a{
+    text-align: center;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    nav menu {
+        float: none;
+        text-align: center;
+}
+}
